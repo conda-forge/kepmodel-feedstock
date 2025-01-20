@@ -1,5 +1,5 @@
 {% set name = "kepmodel" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kepmodel-{{ version }}.tar.gz
-  sha256: 9f4097c18fc1fda1f6cd8b320ea4488c1704a478042d4382062400acb477c7dd
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kepmodel-{{ version }}.tar.gz
+  sha256: 47bf36ca2a0e4fff8f7e932b5aa7822bf8d4a45a5c68333bf03f44cd197d61a4
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools >=61.0    
+    - setuptools >=61.0
   run:
     - kepderiv >=1.0
     - numpy >=1.16
