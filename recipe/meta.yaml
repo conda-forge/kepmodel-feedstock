@@ -1,5 +1,5 @@
 {% set name = "kepmodel" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kepmodel-{{ version }}.tar.gz
-  sha256: 47bf36ca2a0e4fff8f7e932b5aa7822bf8d4a45a5c68333bf03f44cd197d61a4
+  sha256: 1ac4e4beac481630d404283d06fe35e70a9d9f640de111e390f3767910244c04
 
 build:
   number: 0
